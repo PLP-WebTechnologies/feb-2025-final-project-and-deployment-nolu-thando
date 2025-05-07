@@ -236,139 +236,6 @@ nav ul li a.active {
     font-size: 18px;
 }
 
-/* Resume Section Styles */
-.resume-section {
-    padding: 100px 0;
-    background-color: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    margin: 80px 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.resume-section h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-    color: #fff;
-    position: relative;
-}
-
-.resume-section h2:after {
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, #2e9acc, #3498db);
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 2px;
-}
-
-.resume-preview {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.resume-thumbnail {
-    flex: 0 0 40%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.resume-thumbnail img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.5s ease;
-}
-
-.resume-thumbnail:hover img {
-    transform: scale(1.05);
-}
-
-.resume-info {
-    flex: 1;
-}
-
-.resume-info h3 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.resume-info p {
-    color: #ccc;
-    margin-bottom: 25px;
-    line-height: 1.6;
-}
-
-.resume-highlights {
-    margin-bottom: 30px;
-    list-style: none;
-}
-
-.resume-highlights li {
-    margin-bottom: 12px;
-    color: #ddd;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.resume-highlights li i {
-    color: #2e92ccf3;
-}
-
-/* Resume Menu Link */
-.resume-link {
-    position: relative;
-}
-
-.resume-link::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #2e9acc;
-    transition: width 0.3s ease;
-}
-
-.resume-link:hover::after {
-    width: 100%;
-}
-
-/* Responsive adjustments */
-@media (max-width: 992px) {
-    .resume-preview {
-        flex-direction: column;
-        padding: 30px;
-    }
-    
-    .resume-thumbnail {
-        flex: 0 0 100%;
-        margin-bottom: 30px;
-    }
-    
-    .cta-buttons {
-        justify-content: center;
-    }
-}
 
 /* glowing button*/
 .glow-button {
@@ -456,12 +323,6 @@ footer {
     margin-right: 50px;
 }
 
-.about-image img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-}
-
 .about-content {
     display: flex;
     justify-content: space-between;
@@ -469,10 +330,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.about-text {
-    flex: 1;
-    min-width: 300px;
-}
 
 .about-text h2 {
     font-size: 32px;
@@ -533,76 +390,6 @@ footer {
 }
 
 
-.skills-list, .experience-list, .education-list {
-    margin-top: 10px;
-}
-
-.skills-list div {
-    margin-bottom: 15px;
-}
-
-.skills-list span {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.skills-bar {
-    height: 10px;;
-    border-radius: 5px;
-    position: relative;
-}
-
-.checked {
-   color: #FFC2CE;
-}
-
-.experience-item, .education-item {
-    margin-bottom: 20px;
-}
-
-.experience-item h3, .education-item h3 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.experience-item p, .education-item p {
-    margin-bottom: 5px;
-}
-
-
-.tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
-
-.tech-tag {
-    background: rgba(14, 255, 255, 0.1);
-    border: 1px solid var(--secondary-color);
-    color: var(--secondary-color);
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 14px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.project-links {
-    display: flex;
-}
-
-.project-link {
-    display: inline-block;
-    padding: 8px 16px;
-    background: var(--secondary-color);
-    color: var(--darker-bg);
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 500;
-    margin-right: 10px;
-    transition: var(--transition);
-}
 
 .project-link:hover {
     background: transparent;

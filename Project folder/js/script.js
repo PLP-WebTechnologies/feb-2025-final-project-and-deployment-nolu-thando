@@ -1,4 +1,4 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//     alert("Welcome to My Blog!");
-//   });
+document.addEventListener('DOMContentLoaded', () => {
+    alert("Welcome to My Blog!");
+  });
   
